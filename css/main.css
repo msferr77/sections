@@ -23,9 +23,8 @@ html {
   padding-top: 2em;
 }
 
-.all p {
-  padding-top: 1em;
-  padding-bottom: 1em;
+.section p {
+  margin: 1.5rem 0;
 }
 
 .all li {
@@ -33,7 +32,7 @@ html {
   max-width: 25em;
   background-color: #eee9de;
   text-align: left;
-  margin: auto 1.5rem;
+  padding: 0 1em;
 }
 
 .all div {

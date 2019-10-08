@@ -1,10 +1,56 @@
 html {
   box-sizing: border-box;
   background-color: #eee9de;
-  font-family: Lato, regular, bold;
+  font-family: "Lato", regular, bold;
   line-height: 1.5;
+  color: #333;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+.all {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+.all img {
+  display: block;
+  width: 100%;
+  padding-top: 2em;
+}
+
+.all p {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.all li {
+  display: inline-block;
+  max-width: 25em;
+  background-color: #eee9de;
+  text-align: left;
+  margin: auto 1.5rem;
+}
+
+.all div {
+  text-align: left;
+}
+
+.all a {
+  display: inline-block;
+  padding: .4em .75em .5em;
+  border: 3px solid #333;
+  background-color: #eee9de;
+  border-radius: 8px;
+  color: #333;
+  text-decoration: none;
+}
+
+.all a:hover {
+  background-color: #333;
+  color: #fff;
 }

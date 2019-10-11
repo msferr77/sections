@@ -1,6 +1,5 @@
 html {
   box-sizing: border-box;
-  vertical-align: middle;
   background-color: #eee9de;
   font-family: Lato, regular, bold;
   line-height: 1.5;
@@ -16,31 +15,32 @@ body {
   padding: 0;
 }
 
-.btn {
-  list-style-type: none;
+.row {
   text-align: center;
+  margin: 1.5rem 0;
 }
 
 img {
   display: block;
   width: 100%;
-  padding-top: 2em;
+  padding-top: 1em;
 }
 
-section p {
-  margin: 1.5rem 0;
-}
-
-.btn li {
+.column {
   display: inline-block;
   max-width: 25em;
   background-color: #eee9de;
   text-align: left;
-  padding: 0 1em;
+  vertical-align: middle;
+  padding: .5em 1em;
 }
 
-.section div {
+div {
   text-align: left;
+}
+
+.btn {
+  padding-top: .5em;
 }
 
 .btn a {
